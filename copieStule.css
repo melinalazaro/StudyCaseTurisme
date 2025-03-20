@@ -1,0 +1,35 @@
+@media screen and (max-width: 1000px) {
+  .ContainerCards {
+    width: 100%;
+    flex-direction: column; /* Passe en colonne quand l'écran est petit */
+  }
+  .container {
+    height: 100%;
+    padding: 0px 20px;
+  }
+
+  .premiercontainer,
+  .container2 {
+    width: 100% -16px; /* Prend toute la largeur de l'écran */
+  }
+  .itemMenu {
+    font-size: 12px;
+  }
+  .header {
+    height: 50px;
+    padding: 9px 20px;
+  }
+  .navbar {
+    gap: 20px;
+  }
+  .logo {
+    width: 40px;
+  }
+  .soustitrePlusIcon {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 14px;
+    margin: 0px;
+  }
+}
